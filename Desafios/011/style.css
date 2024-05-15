@@ -1,0 +1,18 @@
+body{
+    background-image: url(espaco.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+
+}
+
+img{
+    margin: 215px;
+}
