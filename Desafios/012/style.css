@@ -14,51 +14,60 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-body{
+html,body{
+    min-height: 100vh;
     background-color: white;
 }
 
 header{
     background-color: black;
-    padding: 50px;
+    color: white;
+    text-align: center;
 }
 
-h1{
+header > h1{
     font-family: var(--fonte2);
-    text-align: center;
-    font-size: 10vw;
+    padding-top: 50px;
     font-variant: small-caps;
-    font-weight: 700;
-    color: white;
-    
+}
+header > p{
+    padding-bottom: 50px;
 }
 
-h2{
-    font-family: var(--fonte1);
-    font-weight: 400;
-    color: white;
-    text-align: center;
-    font-size: 1.7vh;
-}
 a{
-    font-weight: 700;
+    font-weight: bolder;
     color: white;
     text-decoration: none;
 }
-a:visited{
-    color: none;
-}
+
 a:hover{
     text-decoration: underline;
 }
-
-#none{
-    font-family: var(--fonte3);
-    font-weight: 400;
-    margin: 60px 0px 60px 30px;
-    font-size: 4vw;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
-#pic{
-    margin: auto;
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(87, 84, 84);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
