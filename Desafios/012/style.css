@@ -15,6 +15,7 @@
 }
 
 html,body{
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: white;
 }
@@ -29,6 +30,7 @@ header > h1{
     font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -44,10 +46,12 @@ a:hover{
     text-decoration: underline;
 }
 section{
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section.normal{
@@ -60,9 +64,9 @@ section.imagem{
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.178);
-    padding-left: 10px;
+    padding: 10px;
 }
 
 
